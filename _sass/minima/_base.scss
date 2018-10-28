@@ -142,7 +142,6 @@ blockquote {
 }
 
 
-
 /**
  * Code formatting
  */
@@ -280,4 +279,24 @@ table {
   margin: 30px;
   padding: 20px;
   background-color: $brand-secondary-color;
+}
+
+
+/**
+* Program
+*/
+
+#programa {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#charlas{
+  background-color: $brand-color;
+  padding: 50px;
+  color: #fff;
+}
+
+#charlas p{
+  font-weight: 100;
 }
