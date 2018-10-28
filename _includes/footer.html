@@ -1,35 +1,19 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<hr>
 
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+<footer>
+  <div class="row">
+    <div clas="col-6 col-md-2">
     </div>
-
+    <div clas="col-6 col-md-4">
+      <br>
+      <p>Organiza:</p>
+      <img src="assets/logo/lds-color.jpg" class="icon-footer"> </img>
+    </div>
+    <div clas="col-6 col-md-4">
+    </div>
+    <div clas="col-6 col-md-2">
+      <br><p> <strong>Conferencia FEMIT 2018</strong></p>
+      <p> femitconf@gmail.com </p>
+    </div>
   </div>
-
 </footer>

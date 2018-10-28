@@ -297,6 +297,62 @@ table {
   color: #fff;
 }
 
-#charlas p{
+#charlas p, h5{
   font-weight: 100;
+  margin-bottom: 0px;
+}
+
+#charlas h5{
+  color: $brand-secondary-color-light;
+}
+
+.bg-dark {
+  background-color: #000!important;
+}
+
+
+#panel{
+  padding: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+#panel h3 {
+  color: $brand-secondary-color;
+}
+
+.speaker{
+  max-width: 150px;
+  padding-bottom: 20px;
+}
+
+#lasdesistemas{
+  padding: 100px;
+  background-color: $brand-secondary-color;
+  color: #fff;
+}
+
+.lds {
+  max-width: 200px;
+}
+
+.icon-rrss{
+  width: 22px;
+}
+
+#sponsors{
+  padding: 50px;
+}
+
+.sponsor-img{
+  padding: 20px;
+}
+
+.icon-footer{
+  width: 150px;
+}
+
+footer {
+  padding-right: 100px;
+  padding-left: 100px;
 }
