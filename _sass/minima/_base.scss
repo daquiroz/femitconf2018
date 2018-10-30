@@ -332,6 +332,35 @@ table {
   color: #fff;
 }
 
+.sponsors {
+    display: inline-block;
+    max-width: 1400px;
+}
+
+.platinum-large {
+    width: 300px;
+    display: table;
+    margin: 0 auto;
+}
+
+.platinum-small {
+    width: 240px;
+    display: table;
+    margin: 0 auto;
+}
+
+.gold-large {
+    width: 200px;
+    display: table;
+    margin: 0 auto;
+}
+
+.gold-small {
+    width: 150px;
+    display: table;
+    margin: 0 auto;
+}
+
 .lds {
   max-width: 200px;
 }
@@ -341,11 +370,12 @@ table {
 }
 
 #sponsors{
+  text-align: center;
   padding: 50px;
 }
 
 .sponsor-img{
-  padding: 20px;
+  padding: 30px;
 }
 
 .icon-footer{
