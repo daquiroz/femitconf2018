@@ -378,8 +378,40 @@ table {
   padding: 30px;
 }
 
+
+#comunidades{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.comunidades {
+    display: inline-block;
+    max-width: 1400px;
+}
+
+.comunidades-large {
+    width: 250px;
+    display: table;
+    margin: 0 auto;
+}
+
+.comunidades-small {
+    width: 180px;
+    display: table;
+    margin: 0 auto;
+}
+
+.comunidades-img {
+  padding: 30px;
+}
+
 .icon-footer{
   width: 150px;
+}
+
+#codigo {
+  text-align: justify;
+  padding: 100px;
 }
 
 footer {
