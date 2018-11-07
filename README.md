@@ -1,7 +1,7 @@
 # FEMIT
 
 # About
-Página web de la Conferencia FEMIT, organizada por [LAS] DE SISTEMAS
+Página web de la Conferencia FEMIT, Conferencia Argentina de tecnología y feminismo. Organizada por @lasdesistemas.
 
 # Instalacón
 
