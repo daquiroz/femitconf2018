@@ -1,3 +1,5 @@
+{% include base.html %}
+
 <header class="site-header" role="banner">
 
   <nav class="navbar navbar-expand-lg navbar-light">
@@ -12,28 +14,28 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/#">HOME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../#programa">AGENDA</a>
+          <a class="nav-link" href="{{ base }}#programa">AGENDA</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../#charlas">CHARLAS</a>
+          <a class="nav-link" href="{{ base }}#charlas">CHARLAS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../#panel">PANEL</a>
+          <a class="nav-link" href="{{ base }}#panel">PANEL</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../#lasdesistemas">ORGANIZACIÓN</a>
+          <a class="nav-link" href="{{ base }}#lasdesistemas">ORGANIZACIÓN</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../#sponsors">SPONSORS</a>
+          <a class="nav-link" href="{{ base }}#sponsors">SPONSORS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../#comunidades">COMUNIDADES</a>
+          <a class="nav-link" href="{{ base }}#comunidades">COMUNIDADES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../codigo-conducta.html">CÓDIGO DE CONDUCTA</a>
+          <a class="nav-link" href="{{ base }}/codigo-conducta.html">CÓDIGO DE CONDUCTA</a>
         </li>
       </ul>
     </div>
